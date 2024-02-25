@@ -1,0 +1,13 @@
+CREATE TABLE client_user (
+  id INT PRIMARY KEY,
+  name VARCHAR(255),
+  company VARCHAR(255),
+  email VARCHAR(255),
+  comment VARCHAR(2000),
+  created_time timestamp(6),
+  updated_time timestamp(6),
+  creator_name VARCHAR(255),
+  updater_name VARCHAR(255),
+  creator_id INT,
+  updater_id INT
+);
